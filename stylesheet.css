@@ -17,7 +17,7 @@ body {
 }
 /* Header */
 header {
-	border-bottom: 3px solid #800000;
+	
 	margin-bottom: 1em;
 	padding-top: 1.5em;
 	padding-bottom: 3em;
@@ -32,12 +32,13 @@ header {
 }
 #profile-pic{
 	float:right;
-	padding-right: 1em;
-	padding-bottom:.10em;
-	padding-top:.10em;
 	width: 130px;
 	height:115px;
 	
+	margin-right:1em;
+	padding:0;
+	border-radius: 4px;
+	box-shadow:-2px 2px 3px 2px #958C8C;
 }
 h1 {
 	padding-left: 0.25em;
@@ -45,7 +46,7 @@ h1 {
 .contact {
 	display: block;
 	padding-left: 0.40em;
-	color:blue;
+	color:black;
 	font-size: 15px;
 	
 }
