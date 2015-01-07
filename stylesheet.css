@@ -1,0 +1,152 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: gray;
+}
+body {
+	width: 800px;
+    margin: 0 auto;
+    border: 3px solid #800000;
+    background-color: #fffded;
+}
+/* Header */
+header {
+	border-bottom: 3px solid #800000;
+	margin-bottom: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 3em;
+	padding-right: 0em;
+	padding-left: 0em;
+	
+}
+#name{
+	color: #27041E;
+	font-family:"Imprint MT Shadow";
+	
+}
+#profile-pic{
+	float:right;
+	padding-right: 1em;
+	padding-bottom:.10em;
+	padding-top:.10em;
+	width: 130px;
+	height:115px;
+	
+}
+h1 {
+	padding-left: 0.25em;
+}
+.contact {
+	display: block;
+	padding-left: 0.40em;
+	color:blue;
+	font-size: 15px;
+	
+}
+
+/*Section*/
+.jobs{
+	list-style:none;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.li-borders {
+	display:inline-block;
+	padding: .10em 1em;
+	border-right: 1px solid red;
+	margin-bottom: 1em;
+}
+#borderleft {
+	border-left: 1px solid red;
+}
+#intro {
+	font-family: Verdana;
+	font-style: normal;
+	font-size: 13px;
+	width: 600px;
+	margin:1em auto;
+	border: 2px solid #4186A1;
+	border-radius: 5px;
+	box-shadow: 2px -2px 4px #0F93A4;
+	background-color: #4DEC75;
+	text-align: center;
+	padding-bottom: .30em;
+}
+#objective {
+	width:650px;
+	margin: 1em auto;
+	background-color: #91E0EB;
+	border: 2px solid #7373A4;
+	border-radius: 5px;
+	margin-bottom: 2em;
+	font-family:"New York", sans serif;
+	padding-bottom: .30em;
+	
+}
+
+div ul{
+	text-align: center;
+	
+		
+}
+div li{
+	display:inline-block;
+	padding: .20em 1em;
+	font-size: 14px;
+	font-family: Times;
+	font-style: oblique;
+	
+}	
+
+div h1{
+	width:700px;
+	border: 2px solid #B4B6BF;
+	background-color: #7A8485;
+	margin:1em auto;
+	text-align: center;
+	color: #E2EDEE;
+}
+div .positions{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 3em;
+	padding-left: 3em;
+		
+}
+.date{
+	float:right;
+}
+.education{
+	font-weight: bold;
+	text-align:center;
+	padding-bottom:2px;
+}
+#itcm {
+	padding-top:6px;
+}
+div ul{
+	font-size:15px;
+	list-style-type:circle;
+	padding-bottom:.25em;
+}
+a:hover, a:focus {
+	color: green;
+}
+a:link {
+	color:#C71313;
+}
+/*Footer*/
+p {
+	padding-top: .50em;
+	border-top: 3px solid #800000;
+	font-size:15px;
+	font-family:"Agency FB";
+	text-align: center;
+}
